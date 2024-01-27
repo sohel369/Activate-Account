@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+section {
+    height: 150vh;
+    width: 100%;
+    background: #34303064;
+    padding: 20px 30%;
+}
+.logo{
+    text-align: center;
+    font-size: 28px;
+}
+.logo i{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background: #930303;
+    padding: 10px 20px;
+    font-size: 28px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.content_logo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.content_logo #logo1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_logo #logo2{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 6px solid blue;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_logo #logo3{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 255, 0.461);
+    color: rgba(0, 0, 255, 0.426);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    height: 400px;
+    margin-top: 20px;
+}
+.container h1{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+.container h2{
+    margin: 40px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #444;
+}
+.container button{
+    margin-left: 50%;
+    transform: translateX(-70px);
+    padding: 10px 30px;
+    border: none;
+    background: #0b59c0;
+    color: white;
+    cursor: pointer;
+}
+a.anc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+section p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+}
+section .last_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    margin-top: 20px;
+}
+section .Last_log {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+section .Last_log i{
+    margin-right: 20px;
+    color: #444;
+}
+section .sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    margin-top: 20px;
+    text-decoration: underline;
+}
